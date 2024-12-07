@@ -1,0 +1,16 @@
+JS single threaded
+
+firstly created GEC and refer it THIS
+
+different EC of global ( THIS value windo object) 
+and node , dino ,bun
+
+Server side render - have not window access 
+
+=== Functional execution context ===
+=== Eval execution context ===
+
+1. Run Global execution and allocate to THIS 
+2. Memory creation phase ( adding variables ex. val1 => undefined )
+3. Execution phase
+
