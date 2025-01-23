@@ -11,6 +11,9 @@ for (const num of arr) {
 
 const greetings = "Hello world!"
 for (const greet of greetings) {
+    if (greet == " ") {
+        break
+    }
     //console.log(`Each char is ${greet}`)
 }
 
@@ -25,8 +28,9 @@ map.set('IN', "India")
 
 // console.log(map);
 
-for (const [key, value] of map) {
-    // console.log(key, ':-', value);
+for (const [J,r] of map) {
+    console.log(`${J} :- ${r}`);
+    
 }
 
 const myObject = {
@@ -34,7 +38,7 @@ const myObject = {
     game2: 'Spiderman'
 }
 
-// for (const [key, value] of myObject) {
-//     console.log(key, ':-', value);
+for (const [J,r] of myObject) {
+    console.log(`${J} :- ${r}`);
     
-// }
+}

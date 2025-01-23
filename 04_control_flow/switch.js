@@ -7,7 +7,7 @@
 //         break;
 // }
 
-const month = "march"
+const month = "april"
 
 switch (month) {
     case "jan":
@@ -21,7 +21,6 @@ switch (month) {
         break;
     case "april":
         console.log("april");
-        break;
 
     default:
         console.log("default case match");
